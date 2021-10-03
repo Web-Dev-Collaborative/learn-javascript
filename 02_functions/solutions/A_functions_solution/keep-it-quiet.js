@@ -2,7 +2,7 @@
 // lowercase version of the string with 3 periods added to the end of it.
 
 let keepItQuiet = function (str) {
-  return str.toLowerCase() + '...';
+  return str.toLowerCase() + "...";
 };
 
 console.log(keepItQuiet("HOORAY")); // 'hooray...'

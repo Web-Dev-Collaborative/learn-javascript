@@ -1,7 +1,7 @@
 // Write a function `average` that accepts three numbers as arguments. The function should return the
 // average of the three numbers.
 
-let average = function(num1, num2, num3) {
+let average = function (num1, num2, num3) {
   return (num1 + num2 + num3) / 3;
 };
 

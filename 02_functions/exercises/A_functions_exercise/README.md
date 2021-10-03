@@ -5,7 +5,7 @@ single logical unit. Functions may take _arguments_ as input and return some val
 
 Before you start this exercise, make sure you have watched the lecture first.
 
-+ [Lecture](https://youtu.be/g7fBqWTdeMw)
+- [Lecture](https://youtu.be/g7fBqWTdeMw)
 
 If you get stuck during this exercise, reference this walkthrough. Only watch enough of the
 walkthrough to get yourself unstuck, then pause the video and pick up the exercise on your own.
@@ -13,8 +13,8 @@ walkthrough to get yourself unstuck, then pause the video and pick up the exerci
 This is where we bring well defined structure to our code. If so far we've only learned the isolated
 "words", "phrases", and "sentences" of programming, we now turn our attention to the "paragraphs".
 
-+ [Walkthrough Part 1](https://youtu.be/hS-p8ICd7Ek)
-+ [Walkthrough Part 2](https://youtu.be/pE9JYGobDQg)
+- [Walkthrough Part 1](https://youtu.be/hS-p8ICd7Ek)
+- [Walkthrough Part 2](https://youtu.be/pE9JYGobDQg)
 
 -AZ
 
@@ -145,7 +145,6 @@ console.log(keepItQuiet("WHAT?!?!")); // 'what?!?!...'
 
 Create an `is-long.js` file and solve the function below:
 
-
 ```js
 // Write a function `isLong` that accepts a string as an argument. The function should return a boolean
 // indicating whether or not the string is longer than 5 characters
@@ -161,7 +160,6 @@ console.log(isLong("restaurant")); // true
 ### half
 
 Create a `half.js` file and solve the function below:
-
 
 ```js
 // Write a function `half` that accepts a number as an argument. The function should return half of the
@@ -189,7 +187,6 @@ console.log(endsWithT("boomerang")); // false
 ### average
 
 Create an `average.js` file and solve the function below:
-
 
 ```js
 // Write a function `average` that accepts three numbers as arguments. The function should return the

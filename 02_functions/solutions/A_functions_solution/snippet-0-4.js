@@ -10,7 +10,6 @@ console.log(result.length);
 console.log(result[0]);
 console.log(result[result.length - 1]);
 
-
 // POTATO!!
 // 8
 // P

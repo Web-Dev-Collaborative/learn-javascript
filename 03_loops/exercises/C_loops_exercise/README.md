@@ -3,7 +3,7 @@
 If you get stuck during this exercise, reference this walkthrough. Only watch enough of the
 walkthrough to get yourself unstuck, then pause the video and pick up the exercise on your own.
 
-+ [Lecture](https://youtu.be/3uEzx16zwIM)
+- [Lecture](https://youtu.be/3uEzx16zwIM)
 
 You are getting good at solving problems using loops. Let's up the difficulty.
 
@@ -83,7 +83,7 @@ Create a `raise-power.js` file and solve the function below:
 // Write a function `raisePower(base, exponent)` that accepts two numbers, `base` and `exponent`. The
 // function should return `base` raised to the `exponent` power.
 //
-// For example, raisePower(2, 5) should return 32 because 2 * 2 * 2 * 2 * 2 = 32 
+// For example, raisePower(2, 5) should return 32 because 2 * 2 * 2 * 2 * 2 = 32
 // For example, raisePower(4, 3) should return 64 because 4 * 4 * 4 = 64
 
 console.log(raisePower(2, 5)); // 32

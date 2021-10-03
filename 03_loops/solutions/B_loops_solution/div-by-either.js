@@ -1,5 +1,5 @@
-// Write a function named `divByEither(num1, num2, max)` that accepts three numbers as arguments. 
-// The function should print out all positive numbers less than max that are divisible by num1 or num2. 
+// Write a function named `divByEither(num1, num2, max)` that accepts three numbers as arguments.
+// The function should print out all positive numbers less than max that are divisible by num1 or num2.
 // The function doesn't need to return any value. It should just print to the terminal.
 
 let divByEither = function (num1, num2, max) {

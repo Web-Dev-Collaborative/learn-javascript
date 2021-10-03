@@ -8,7 +8,6 @@ for (let i = 3; i <= 7; i++) {
 
 console.log("bye");
 
-
 // hi
 // program
 // 3

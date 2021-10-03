@@ -3,7 +3,7 @@
 // in `targetWords`.
 
 let wordCount = function (sentence, targetWords) {
-  let words = sentence.split(' ');
+  let words = sentence.split(" ");
   let count = 0;
 
   for (let i = 0; i < words.length; i++) {

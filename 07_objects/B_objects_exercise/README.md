@@ -67,7 +67,12 @@ Create a `word-replace.js` file and solve the function below:
 // function should return a new sentence where words that are keys of the object are replaced with
 // their corresponding values.
 
-console.log(wordReplace("I never take naps during the day", { never: "always", day: "weekend" }));
+console.log(
+  wordReplace("I never take naps during the day", {
+    never: "always",
+    day: "weekend",
+  })
+);
 // 'I always take naps during the weekend'
 
 console.log(wordReplace("the park is closed", { closed: "open", the: "a" }));

@@ -2,7 +2,7 @@
 // the string with it's first vowel removed.
 
 let removeFirstVowel = function (str) {
-  let vowels = 'aeiou';
+  let vowels = "aeiou";
 
   for (let i = 0; i < str.length; i++) {
     let char = str[i];

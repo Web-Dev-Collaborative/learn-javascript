@@ -2,10 +2,10 @@
 // The function should return a new string consisting of the `str` repeated `num` number of times.
 
 let stringRepeater = function (str, num) {
-  let repeatedStr = '';
+  let repeatedStr = "";
 
   for (let i = 1; i <= num; i++) {
-    repeatedStr += str
+    repeatedStr += str;
   }
 
   return repeatedStr;

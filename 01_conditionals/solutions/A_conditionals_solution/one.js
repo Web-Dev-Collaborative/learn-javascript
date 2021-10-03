@@ -23,7 +23,6 @@ if (b === b.toUpperCase()) {
   console.log("beta"); // prints
 }
 
-
 // snippet 1-2
 let number = 9;
 
@@ -32,8 +31,6 @@ if (number > 4) {
 } else if (number % 3 === 0) {
   console.log("dong");
 }
-
-
 
 // snippet 1-3
 let z = 12;

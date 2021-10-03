@@ -8,12 +8,11 @@ let makeMatrix = function (m, n, value) {
     let row = [];
 
     for (let j = 0; j < n; j++) {
-      row.push(value); 
+      row.push(value);
     }
-    
+
     matrix.push(row);
   }
-
 
   return matrix;
 };

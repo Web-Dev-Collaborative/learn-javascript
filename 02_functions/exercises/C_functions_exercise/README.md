@@ -5,7 +5,7 @@ More practice!
 If you get stuck during this exercise, reference this walkthrough. Only watch enough of the
 walkthrough to get yourself unstuck, then pause the video and pick up the exercise on your own.
 
-+ [Walkthrough](https://youtu.be/KCv1ovMB4DU)
+- [Walkthrough](https://youtu.be/KCv1ovMB4DU)
 
 I think the reason why coding has a reputation for being nonintuitive is because beginners don't
 spend enough time on the basics. They miss a step early, but instead of filling that gap of
@@ -127,7 +127,6 @@ console.log(contains("SORRY", "or")); // true
 console.log(contains("tangent", "gem")); // false
 console.log(contains("clock", "ok")); // false
 ```
-
 
 ## Walkthrough
 

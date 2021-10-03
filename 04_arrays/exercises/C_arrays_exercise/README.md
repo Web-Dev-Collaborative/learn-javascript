@@ -5,9 +5,9 @@ Let's do one more array exercise before we hit the next topic.
 If you get stuck during this exercise, reference this walkthrough. Only watch enough of the
 walkthrough to get yourself unstuck, then pause the video and pick up the exercise on your own.
 
-+ [Walkthrough](https://youtu.be/Whk1gGafY78)
+- [Walkthrough](https://youtu.be/Whk1gGafY78)
 
-Remember that time at the beginning of the course where you couldn't read or write any code? Look at 
+Remember that time at the beginning of the course where you couldn't read or write any code? Look at
 you now, smarty pants.
 
 -AZ
@@ -24,7 +24,7 @@ Create a `lengthiest-word.js` file and solve the function below:
 
 ```js
 // Write a function `lengthiestWord` that accepts a sentence string as an argument. The function should
-// return the longest word of the sentence. If there is a tie, return the word that appears later 
+// return the longest word of the sentence. If there is a tie, return the word that appears later
 // in the sentence.
 
 console.log(lengthiestWord("I am pretty hungry")); // 'hungry'

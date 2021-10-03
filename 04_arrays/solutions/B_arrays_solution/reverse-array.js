@@ -14,7 +14,6 @@ let reverseArray1 = function (array) {
 console.log(reverseArray1(["zero", "one", "two", "three"])); // ['three', 'two', 'one', 'zero']
 console.log(reverseArray1([7, 1, 8])); // [8, 1, 7]
 
-
 let reverseArray2 = function (array) {
   let reversed = [];
 

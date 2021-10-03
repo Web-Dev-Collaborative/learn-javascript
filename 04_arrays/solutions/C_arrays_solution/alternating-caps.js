@@ -2,7 +2,7 @@
 // return the sentence where words alternate between lowercase and uppercase.
 
 let alternatingCaps = function (sentence) {
-  let words = sentence.split(' ');
+  let words = sentence.split(" ");
   let newWords = [];
 
   for (let i = 0; i < words.length; i++) {
@@ -14,7 +14,7 @@ let alternatingCaps = function (sentence) {
     }
   }
 
-  return newWords.join(' ');
+  return newWords.join(" ");
 };
 
 console.log(alternatingCaps("take them to school")); // 'take THEM to SCHOOL'

@@ -10,7 +10,6 @@ let print2d = function (array) {
   }
 };
 
-
 let array1 = [
   ["a", "b", "c", "d"],
   ["e", "f"],

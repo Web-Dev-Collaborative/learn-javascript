@@ -4,12 +4,12 @@ More array practice!
 
 Before you start this exercise, make sure you have watched the lecture first.
 
-+ [Lecture](https://youtu.be/M4OpbSGGnjw)
+- [Lecture](https://youtu.be/M4OpbSGGnjw)
 
 If you get stuck during this exercise, reference this walkthrough. Only watch enough of the
 walkthrough to get yourself unstuck, then pause the video and pick up the exercise on your own.
 
-+ [Walkthrough](https://youtu.be/l6dwZkBfi08)
+- [Walkthrough](https://youtu.be/l6dwZkBfi08)
 
 You may have noticed we added a few new patterns and techniques to our toolbox. The only way to get
 familiar with your tools is to use them. Write code. Run it.
@@ -82,7 +82,7 @@ console.log(chooseDivisibles([4, 25, 1000], 10)); // [1000]
 Create a `maximum.js` file and solve the function below:
 
 ```js
-// Write a function `maximum` that accepts an array of numbers as an argument. The function should 
+// Write a function `maximum` that accepts an array of numbers as an argument. The function should
 // return the largest number of the array. If the array is empty, then the function should return null.
 
 console.log(maximum([5, 6, 3, 7])); // 7

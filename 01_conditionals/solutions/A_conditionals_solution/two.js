@@ -28,7 +28,7 @@ let q = 25;
 if (q % 3 === 0 && q % 5 === 0) {
   console.log("both");
 } else if (q % 3 === 0 || q % 5 == 0) {
-  console.log("either"); // prints 
+  console.log("either"); // prints
 } else {
   console.log("neither");
 }

@@ -1,8 +1,8 @@
 // Write a function `removeShortWords` that accepts a sentence string as an argument. The function
 // should return a new sentence where all of the words shorter than 4 characters are removed.
 
-let removeShortWords = function(sentence) {
-  let words = sentence.split(' ');
+let removeShortWords = function (sentence) {
+  let words = sentence.split(" ");
   let chosenWords = [];
 
   for (let i = 0; i < words.length; i++) {
@@ -13,7 +13,7 @@ let removeShortWords = function(sentence) {
     }
   }
 
-  return chosenWords.join(' ');
+  return chosenWords.join(" ");
 };
 
 console.log(removeShortWords("knock on the door will you")); // 'knock door will'

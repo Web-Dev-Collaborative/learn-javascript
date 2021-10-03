@@ -2,8 +2,8 @@
 // should return the same sentence where words longer than 4 characters have their vowels removed.
 
 let removeVowels = function (str) {
-  let newStr = '';
-  let vowels = 'aeiou';
+  let newStr = "";
+  let vowels = "aeiou";
 
   for (let i = 0; i < str.length; i++) {
     let char = str[i];
@@ -16,7 +16,7 @@ let removeVowels = function (str) {
 };
 
 let shortenLongWords = function (sentence) {
-  let words = sentence.split(' ');
+  let words = sentence.split(" ");
   let newWords = [];
 
   for (let i = 0; i < words.length; i++) {
@@ -30,7 +30,7 @@ let shortenLongWords = function (sentence) {
     }
   }
 
-  return newWords.join(' ');
+  return newWords.join(" ");
 };
 
 console.log(shortenLongWords("they are very noble people")); // 'they are very nbl ppl'

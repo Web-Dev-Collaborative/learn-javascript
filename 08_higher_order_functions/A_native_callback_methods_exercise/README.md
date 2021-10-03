@@ -28,14 +28,14 @@ let foo = function (s) {
   return s.slice(1).toUpperCase();
 };
 
-let arr = ['mashy', 'brando', 'thanasi'];
+let arr = ["mashy", "brando", "thanasi"];
 let res = arr.map(foo);
 console.log(res);
 ```
 
 ```js
 // snippet-2
-let friends = ['nader', 'matty', 'jennifer', 'lora'];
+let friends = ["nader", "matty", "jennifer", "lora"];
 
 let chosen = friends[0];
 
@@ -66,26 +66,26 @@ console.log(nums1.map(isOdd));
 ```js
 // snippet-4
 let doggos = [
-  { name: 'bella', type: 'canine', age: 4, breed: 'yorkshire terrier' },
-  { name: 'manny', type: 'canine', age: 2, breed: 'pug' },
-  { name: 'yoshi', type: 'canine', age: 3, breed: 'german shepherd' },
-  { name: 'blossom', type: 'canine', age: 3, breed: 'german shepherd' }
+  { name: "bella", type: "canine", age: 4, breed: "yorkshire terrier" },
+  { name: "manny", type: "canine", age: 2, breed: "pug" },
+  { name: "yoshi", type: "canine", age: 3, breed: "german shepherd" },
+  { name: "blossom", type: "canine", age: 3, breed: "german shepherd" },
 ];
 
 let result1 = doggos.every(function (ele) {
-  return ele.type === 'canine';
+  return ele.type === "canine";
 });
 
 console.log(result1);
 
 let result2 = doggos.every(function (ele) {
-  return ele.breed === 'german shepherd';
+  return ele.breed === "german shepherd";
 });
 
 console.log(result2);
 
 let result3 = doggos.some(function (ele) {
-  return ele.breed === 'german shepherd';
+  return ele.breed === "german shepherd";
 });
 
 console.log(result3);
@@ -123,25 +123,25 @@ console.log(forEachSum([])); // 0
 Create a `pick-adults.js` file and solve the function below:
 
 ```js
-// Write a function `pickAdults` that accepts an array of person objects and returns the objects that 
+// Write a function `pickAdults` that accepts an array of person objects and returns the objects that
 // have an age of at least 18.
 // Your function must utilize the native Array#filter method.
 
 let people = [
-  { name: 'alice', age: 22 },
-  { name: 'bob', age: 37 },
-  { name: 'pam', age: 16 },
-  { name: 'jim', age: 18 }
+  { name: "alice", age: 22 },
+  { name: "bob", age: 37 },
+  { name: "pam", age: 16 },
+  { name: "jim", age: 18 },
 ];
-console.log(pickAdults(people)); 
+console.log(pickAdults(people));
 // [ { name: 'alice', age: 22 }, { name: 'bob', age: 37 }, { name: 'jim', age: 18 } ]
 
 let people2 = [
-  { name: 'betty', age: 23 },
-  { name: 'ben', age: 15 },
-  { name: 'yansi', age: 21 }
+  { name: "betty", age: 23 },
+  { name: "ben", age: 15 },
+  { name: "yansi", age: 21 },
 ];
-console.log(pickAdults(people2)); 
+console.log(pickAdults(people2));
 // [ { name: 'betty', age: 23 }, { name: 'yansi', age: 21 } ]
 ```
 
@@ -155,10 +155,12 @@ Create a `word-map.js` file and solve the function below:
 // corresponding values.
 // Your function must utilize the native Array#map method.
 
-console.log(wordMap('open the pod bay doors', {pod: 'ship', open: 'close'})); 
+console.log(wordMap("open the pod bay doors", { pod: "ship", open: "close" }));
 // 'close the ship bay doors'
 
-console.log(wordMap('breakfast food is good', {breakfast: 'brunch', good: 'great'})); 
+console.log(
+  wordMap("breakfast food is good", { breakfast: "brunch", good: "great" })
+);
 // 'brunch food is great'
 ```
 
@@ -171,11 +173,10 @@ Create a `common-elements.js` file and solve the function below:
 // return a new array containing the elements that are found in both input arrays.
 // Your function must utilize the native Array#filter method.
 
-console.log(commonElements(['a', 'b', 'c'], ['c', 'a'])); // ['a', 'c']
-console.log(commonElements(['cat', 'dog', 'mouse', 'fish'], ['dog', 'rat'])); // ['dog']
-console.log(commonElements(['skip', 'jump'], ['swim', 'hop'])); // []
+console.log(commonElements(["a", "b", "c"], ["c", "a"])); // ['a', 'c']
+console.log(commonElements(["cat", "dog", "mouse", "fish"], ["dog", "rat"])); // ['dog']
+console.log(commonElements(["skip", "jump"], ["swim", "hop"])); // []
 ```
-
 
 ### getInitials
 
@@ -187,16 +188,15 @@ Create a `get-initials.js` file and solve the function below:
 // Your function must utilize the native Array#map method.
 
 let students1 = [
-  { first: 'ada', last: 'yonath', subject: 'chemistry' },
-  { first: 'nelly', last: 'sachs', subject: 'literature' },
-  { first: 'rosalyn', last: 'yallow', subject: 'medicine' }
+  { first: "ada", last: "yonath", subject: "chemistry" },
+  { first: "nelly", last: "sachs", subject: "literature" },
+  { first: "rosalyn", last: "yallow", subject: "medicine" },
 ];
 console.log(getInitials(students1)); // ['AY', 'NS', 'RY']
 
-
 let students2 = [
-    { first: 'margaret', last: 'knight' },
-    { first: 'ellen', last: 'ochoa' },
+  { first: "margaret", last: "knight" },
+  { first: "ellen", last: "ochoa" },
 ];
 console.log(getInitials(students2)); // ['MK', 'EO']
 ```

@@ -2,8 +2,8 @@
 // return a string containing the first character of each word in the sentence.
 
 let makeAcronym = function (sentence) {
-  let words = sentence.split(' ');
-  let acronym = '';
+  let words = sentence.split(" ");
+  let acronym = "";
 
   for (let i = 0; i < words.length; i++) {
     let word = words[i];

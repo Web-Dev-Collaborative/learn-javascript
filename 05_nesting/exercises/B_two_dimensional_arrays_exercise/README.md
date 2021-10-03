@@ -6,12 +6,12 @@ a grid space.
 
 Before you start this exercise, make sure you have watched the lecture first.
 
-+ [Lecture](https://youtu.be/CDpJ4PIWAlE)
+- [Lecture](https://youtu.be/CDpJ4PIWAlE)
 
 If you get stuck during this exercise, reference this walkthrough. Only watch enough of the
 walkthrough to get yourself unstuck, then pause the video and pick up the exercise on your own.
 
-+ [Walkthrough](https://youtu.be/ajSXu2D2gzg)
+- [Walkthrough](https://youtu.be/ajSXu2D2gzg)
 
 Loops in loops? Arrays in arrays? What's next, functions in functions?
 
@@ -135,7 +135,7 @@ Create a `zipper.js` file and solve the function below:
 
 ```js
 // Write a function `zipper` that accepts two arrays as arguments. The function should return a 2D
-// array containing pairs of elements at the same indices. You can assume that the arrays have the 
+// array containing pairs of elements at the same indices. You can assume that the arrays have the
 // same length.
 
 let array1 = ["a", "b", "c", "d"];

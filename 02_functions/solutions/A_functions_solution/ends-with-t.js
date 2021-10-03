@@ -3,9 +3,8 @@
 
 let endsWithT = function (str) {
   let lastChar = str[str.length - 1];
-  return lastChar === 't';
+  return lastChar === "t";
 };
-
 
 console.log(endsWithT("smart")); // true
 console.log(endsWithT("racket")); // true

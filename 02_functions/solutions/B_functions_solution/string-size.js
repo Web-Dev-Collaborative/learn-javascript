@@ -4,11 +4,11 @@
 
 let stringSize = function (str) {
   if (str.length < 5) {
-    return 'small';
+    return "small";
   } else if (str.length > 5) {
-    return 'large';
+    return "large";
   } else {
-    return 'medium';
+    return "medium";
   }
 };
 

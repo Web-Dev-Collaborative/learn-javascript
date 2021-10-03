@@ -5,7 +5,7 @@ let endsInLy = function (str) {
   let secondLast = str[str.length - 2];
   let last = str[str.length - 1];
 
-  return secondLast === 'l' && last === 'y';
+  return secondLast === "l" && last === "y";
 };
 
 // let endsInLy = function (str) {

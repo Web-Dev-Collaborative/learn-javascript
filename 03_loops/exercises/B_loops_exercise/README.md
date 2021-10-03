@@ -5,7 +5,7 @@ More practice on `for` loops!
 If you get stuck during this exercise, reference this walkthrough. Only watch enough of the
 walkthrough to get yourself unstuck, then pause the video and pick up the exercise on your own.
 
-+ [Walkthrough](https://youtu.be/7EbhmLAH__o)
+- [Walkthrough](https://youtu.be/7EbhmLAH__o)
 
 Roses are read, violets are blue, error on line 32.
 
@@ -20,7 +20,6 @@ example output.
 ### fiveMultiplesOf
 
 Create a `five-multiples-of.js` file and solve the function below:
-
 
 ```js
 // Write a function named `fiveMultiplesOf` that accepts a number as an argument. The function should
@@ -48,7 +47,6 @@ fiveMultiplesOf(3);
 
 Create a `sum-up-to.js` file and solve the function below:
 
-
 ```js
 // Write a function named `sumUpTo(max)` that accepts a max number as an argument. The function should
 // return the total sum of all whole numbers from 1 to the max, inclusive.
@@ -63,7 +61,6 @@ console.log(sumUpTo(2)); // 3
 ### noOhs
 
 Create a `no-ohs.js` file and solve the function below:
-
 
 ```js
 // Write a function named `noOhs` that accepts a string as an argument. The functions should print the
@@ -102,7 +99,6 @@ console.log(oddSum(5)); // 9
 
 Create a `string-repeater.js` file and solve the function below:
 
-
 ```js
 // Write a function named `stringRepeater(str, num)` that accepts a string and a number as arguments.
 // The function should return a new string consisting of the `str` repeated `num` number of times.
@@ -115,7 +111,6 @@ console.log(stringRepeater("tac", 3)); // 'tactactac'
 ### productUpTo
 
 Create a `product-up-to.js` file and solve the function below:
-
 
 ```js
 // Write a function named `productUpTo(max)` that accepts a max number as an argument. The function
@@ -133,10 +128,9 @@ console.log(productUpTo(7)); // 5040
 
 Create a `div-by-either.js` file and solve the function below:
 
-
 ```js
-// Write a function named `divByEither(num1, num2, max)` that accepts three numbers as arguments. 
-// The function should print out all positive numbers less than max that are divisible by num1 or num2. 
+// Write a function named `divByEither(num1, num2, max)` that accepts three numbers as arguments.
+// The function should print out all positive numbers less than max that are divisible by num1 or num2.
 // The function doesn't need to return any value. It should just print to the terminal.
 
 divByEither(4, 3, 16);

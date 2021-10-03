@@ -36,13 +36,15 @@ console.log(removeLastVowel("myth")); // 'myth'
 Create a `pick-prefix.js` file and solve the function below:
 
 ```js
-// Write a function `pickPrefix(strings, prefix)` that accepts an array of strings and a prefix string 
+// Write a function `pickPrefix(strings, prefix)` that accepts an array of strings and a prefix string
 // as an argument. The function should return the an array of words that begin with the prefix.
 
-console.log(pickPrefix(['connect', 'company', 'concert', 'cram'], 'con'));
+console.log(pickPrefix(["connect", "company", "concert", "cram"], "con"));
 // ['connect', 'concert']
 
-console.log(pickPrefix(['miner', 'mistake', 'misspeak', 'moose', 'mission'], 'mis'));
+console.log(
+  pickPrefix(["miner", "mistake", "misspeak", "moose", "mission"], "mis")
+);
 // [''mistake', 'misspeak', 'mission']
 ```
 
@@ -69,10 +71,14 @@ Create a `most-letter-word` file and solve the function below:
 // of times. You can assume that the sentence contains at least one word. If there is a tie, return
 // the word that appears earlier in the sentence.
 
-console.log(mostLetterWord('she received an award for excellence in science', 'e')); // 'excellence'
-console.log(mostLetterWord('she received an award for excellence in science', 'a')); // 'award'
-console.log(mostLetterWord('I hope sophomore year comes soon', 'o')); // 'sophomore'
-console.log(mostLetterWord('I hope sophomore year comes soon', 's')); // 'sophomore'
+console.log(
+  mostLetterWord("she received an award for excellence in science", "e")
+); // 'excellence'
+console.log(
+  mostLetterWord("she received an award for excellence in science", "a")
+); // 'award'
+console.log(mostLetterWord("I hope sophomore year comes soon", "o")); // 'sophomore'
+console.log(mostLetterWord("I hope sophomore year comes soon", "s")); // 'sophomore'
 ```
 
 ## Walkthrough

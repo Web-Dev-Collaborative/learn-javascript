@@ -1,4 +1,4 @@
-// Write a function `maximum` that accepts an array of numbers as an argument. The function should 
+// Write a function `maximum` that accepts an array of numbers as an argument. The function should
 // return the largest number of the array. If the array is empty, then the function should return null.
 
 let maximum = function (numbers) {

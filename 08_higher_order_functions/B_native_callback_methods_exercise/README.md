@@ -9,7 +9,6 @@ let res1 = nums.reduce(function (a, b) {
 
 console.log(res1);
 
-
 let res2 = nums.reduce(function (a, b) {
   return a + b;
 }, -10);

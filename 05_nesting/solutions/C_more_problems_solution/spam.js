@@ -15,7 +15,7 @@ let spam = function (pairs) {
     }
   }
 
-  return words.join(' ');
+  return words.join(" ");
 };
 
 let array1 = [

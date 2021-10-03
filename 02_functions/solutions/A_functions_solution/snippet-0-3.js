@@ -13,7 +13,6 @@ let b = 20;
 let n = average(a, b);
 console.log(average(n, 18));
 
-
 // calculating...
 // 7.5
 // calculating...

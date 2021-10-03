@@ -10,7 +10,6 @@ foo();
 console.log("end");
 foo();
 
-
 // begin
 // 10
 // 8

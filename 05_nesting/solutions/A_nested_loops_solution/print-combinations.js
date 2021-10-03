@@ -3,7 +3,6 @@
 // and an element from the second array. The function doesn't need to return any value. It
 // should just print to the terminal.
 
-
 let printCombinations = function (array1, array2) {
   for (let i = 0; i < array1.length; i++) {
     let ele1 = array1[i];

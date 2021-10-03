@@ -2,8 +2,8 @@
 // a version of the string where all vowels are removed.
 
 let removeVowels = function (str) {
-  let newStr = '';
-  let vowels = 'aeiou';
+  let newStr = "";
+  let vowels = "aeiou";
 
   for (let i = 0; i < str.length; i++) {
     let char = str[i];

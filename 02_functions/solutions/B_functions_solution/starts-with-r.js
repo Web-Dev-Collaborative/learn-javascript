@@ -2,7 +2,7 @@
 // whether or not the string starts with 'r' or 'R'.
 
 let startsWithR = function (str) {
-  return str[0] === 'r' || str[0] === 'R';
+  return str[0] === "r" || str[0] === "R";
 };
 
 console.log(startsWithR("roger that")); // true

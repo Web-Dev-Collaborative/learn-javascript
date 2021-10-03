@@ -12,7 +12,7 @@ let commonElements = function (array1, array2) {
       common.push(ele);
     }
   }
-  
+
   return common;
 };
 

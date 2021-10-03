@@ -24,8 +24,8 @@ Create a `lala-language.js` file and solve the function below:
 // return a new sentence where words longer that 3 characters are modified. Modified words should have
 // each vowel followed by 'l' and the same vowel repeated again. See the examples.
 
-console.log(lalaLanguage('this is pretty strange')); // 'thilis is preletty stralangele'
-console.log(lalaLanguage('can you speak our language')); // 'can you spelealak our lalangulualagele'
+console.log(lalaLanguage("this is pretty strange")); // 'thilis is preletty stralangele'
+console.log(lalaLanguage("can you speak our language")); // 'can you spelealak our lalangulualagele'
 ```
 
 ### pickPerfectSquares
@@ -33,7 +33,7 @@ console.log(lalaLanguage('can you speak our language')); // 'can you spelealak o
 Create a `pick-perfect-squares.js` file and solve the function below:
 
 ```js
-// Write a function `pickPerfectSquares` that accepts an array of numbers as an argument. The function 
+// Write a function `pickPerfectSquares` that accepts an array of numbers as an argument. The function
 // should return an array containing only the elements that are perfect squares. A perfect square
 // is a number that can result from multiplying some number by itself.
 //
@@ -51,13 +51,15 @@ Create a `censor-sentence.js` file and solve the function below:
 
 ```js
 // Write a function `censorSentence(sentence, targetWords)` that accepts a sentence string and an array
-// of target words as arguments. The function should return a new sentence where any target words 
+// of target words as arguments. The function should return a new sentence where any target words
 // have all of their characters replaced with '*'s.
 
-console.log(censorSentence('where the heck is my celery', ['heck', 'celery'])); 
+console.log(censorSentence("where the heck is my celery", ["heck", "celery"]));
 // 'where the **** is my ******'
 
-console.log(censorSentence('why you little sweetheart', ['sweetheart', 'salad'])); 
+console.log(
+  censorSentence("why you little sweetheart", ["sweetheart", "salad"])
+);
 // 'why you little **********'
 ```
 

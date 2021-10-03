@@ -14,7 +14,6 @@ let howMuch = function () {
 };
 console.log(howMuch());
 
-
 // [Function: howMany]
 // 42
 // 42

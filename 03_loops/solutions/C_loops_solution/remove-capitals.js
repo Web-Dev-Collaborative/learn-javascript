@@ -2,12 +2,12 @@
 // new version of the string with all capital letters removed.
 
 let removeCapitals = function (str) {
-  let newStr = '';
+  let newStr = "";
 
   for (let i = 0; i < str.length; i++) {
     let char = str[i];
     if (char === char.toLowerCase()) {
-     newStr += char; 
+      newStr += char;
     }
   }
 

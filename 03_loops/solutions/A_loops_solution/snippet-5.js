@@ -7,7 +7,6 @@ for (let i = 1; i < 5; i++) {
 
 console.log("grand total: " + total);
 
-
 // 1
 // 3
 // 6

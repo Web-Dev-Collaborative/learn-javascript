@@ -7,7 +7,6 @@ if (false) {
   console.log("bar");
 }
 
-
 // snippet 0-2
 if (false || false) {
   console.log("boop");
@@ -16,7 +15,6 @@ if (false || false) {
 if (true || false) {
   console.log("beep"); // prints
 }
-
 
 // snippet 0-3
 let num = 40;
@@ -29,7 +27,6 @@ if (num % 2 === 0) {
   console.log("zoop"); // prints
 }
 
-
 // snippet 0-4
 let word = "jeep";
 
@@ -38,7 +35,6 @@ if (word[0] === "d") {
 } else {
   console.log("nah"); // prints
 }
-
 
 // snippet 0-5
 let sentence = "roger that";
